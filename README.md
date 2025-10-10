@@ -1,16 +1,70 @@
-## Hi there 👋
+# 김영은
 
-<!--
-**dapin1490/dapin1490** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Email:** [dapin1490@gmail.com](mailto:dapin1490@gmail.com)  
+**Location:** 경기도 의정부시  
+**Github:** [github.com/dapin1490](https://github.com/dapin1490)  
+**Website:** [https://dapin1490.github.io/satinbower/](https://dapin1490.github.io/satinbower/)
 
-Here are some ideas to get you started:
+## 소개 (Introduction)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+> 모빌리티 서비스와 로보틱스 분야의 깊은 전문성을 갖춘 신입 개발자 김영은입니다. 석사 과정 중 SDV, V2X, 로봇 친화 빌딩 등 미래 모빌리티 핵심 기술 연구를 수행했으며, Python, C++, ROS를 활용한 시스템 설계와 데이터 기반 문제 해결에 강점이 있습니다.
+
+## 기술 (Skills)
+
+- **Languages:** **Python**, C++
+- **Frameworks & Tools:** Pytorch, Tensorflow, Anaconda, Git, **ROS, Linux(Ubuntu)**
+- **Knowledge:** **Data Analysis, Deep Learning**, Reinforcement Learning, Sensor Fusion, V2X
+- **Etc:** Fluent in technical documentation and project recording
+
+## 연구 및 업무 경력 (Work & Research Experience)
+
+### 성신여자대학교 모빌리티 서비스 연구실, 석사과정 연구원 (2024.03 - 2026.02)
+
+- **현대엔지비 산학 프로젝트** (2024.06 - 2025.05)  
+  <로봇친화빌딩 사업 BM 고도화>
+  - 시뮬레이션 기반 서비스 시나리오 분석 및 사업화 전략 연구 수행
+  - OBD 데이터를 활용한 주차 서비스용 미세먼지 배출 예측 모델 실험 및 분석
+
+- **Teaching Assistant (TA)**
+  - '모빌리티서비스' 학부 과목 TA (2023.09 - 2024.12)
+    - 과제/시험 채점, 질의응답, 로봇(Turtlebot3) 활용 실습 감독
+  - '빅데이터분석' 학부 과목 TA (2025.09 - 2025.12)
+    - 과제/시험 채점, 질의응답, Ubuntu 기반 빅데이터 스택(Spark, Hadoop 등) 활용 실습 감독
+
+## 프로젝트 (Projects)
+
+### 1. 저가형 LiDAR 센서 기반 투명 물체 탐지 시스템 발명
+**기간:** 2023.07 - 2023.09
+
+#### 배경 및 목표 (Situation & Task)
+
+자율주행 로봇에 널리 사용되는 LiDAR 센서는 투명한 물체(예: 유리, 아크릴)를 감지하지 못하는 명확한 기술적 한계를 가집니다. 이를 해결하기 위해 적외선 카메라 등 특수 센서를 상시 운용하는 것은 비용과 전력 효율을 크게 저하시키는 문제가 있었습니다. 따라서, 기존의 저가형 LiDAR 센서를 주축으로 하되, 운용 효율성을 극대화하여 투명 물체를 효과적으로 탐지하는 새로운 센서 시스템을 발명하는 것을 목표로 설정했습니다.
+
+#### 역할 및 행동 (Action)
+
+- **핵심 아이디어 고안:** 평상시에는 LiDAR(제1센서)만으로 주변을 탐색하다가, 투명 물체로 인해 발생하는 **LiDAR 신호의 이상 패턴**을 감지했을 때만 보조 센서(제2센서, 예: 적외선 카메라)를 선택적으로 활성화하는 하이브리드 시스템을 고안했습니다.
+
+- **이상 패턴 정의 및 분석:** 투명 물체 탐지를 위한 구체적인 LiDAR 신호 이상 패턴을 ①일부 광선은 투과하고 일부는 반사되어 두 개의 다른 거리 값이 동시에 측정되는 '패턴 변화', ②신호 강도가 노이즈보다는 크지만 일반 물체보다는 약하게 측정되는 '저강도 신호', ③점군(Point Cloud) 밀도가 비정상적으로 낮아지는 현상 등으로 정의했습니다.
+
+- **타당성 검증:** ROS(Robot Operating System) 환경에서 Turtlebot3 로봇을 이용해 직접 데이터를 수집하고 분석하여, 제안한 아이디어(LiDAR 신호 이상 패턴)가 실제로 투명 물체를 예측하는 유의미한 지표로 사용될 수 있음을 실험적으로 검증했습니다.
+
+#### 결과 및 성과 (Result)
+
+- **특허 출원 성공:** 제안한 시스템의 독창성과 기술적 가치를 인정받아 **'센서운영시스템 및 이를 이용한 센서운영방법'으로 특허를 출원(출원번호: 10-2025-0022752)하는 데 성공했습니다.**
+
+- **운영 효율성 증대:** 불필요한 보조 센서의 작동을 최소화하여 시스템의 전력 소모와 연산 비용을 획기적으로 절감할 수 있는 방안을 제시했습니다.
+
+- **역량 입증:** 기술적 문제의 근원을 파악하고, 창의적인 해결책을 설계하며, 실제 데이터로 아이디어를 검증하고, 최종적으로 지적 재산권(IP)으로 구체화하는 연구개발 전 과정의 역량을 입증했습니다.
+
+### 2. 강화학습(RL) 에이전트 성능 비교 및 분석
+**기간:** 2023.10 - 2023.12
+
+#### 배경 및 목표 (Situation & Task)
+
+강화학습의 주요 알고리즘인 TD, SARSA, Q-learning의 이론적 차이가 실제 성능에 어떻게 반영되는지 검증하고자 했습니다. 이를 위해 불확실성이 높은 '2048 게임' 환경을 직접 설정하고, 'Q-learning > SARSA > TD 순으로 성능이 좋을 것'이라는 가설을 세워 실험적으로 증명하는 것을 목표로 삼았습니다.
+
+#### 역할 및 행동 (Action)
+
+- **실험 설계 및 환경 구축:** Python으로 3x3 사이즈의 '2048 게임' 환경과 리워드 시스템(숫자 조합 시 점수 부여)을 구축했습니다. TD, SARSA, Q-learning 에이전트를 각각 구현하고, 대조군으로 Random 에이전트를 설정하여 객관적인 성능 비교의 기반을 마련했습니다.
+
+- **모델 학습 및 성능 측정:** 각 에이전트를 최대 **100만 회**의 에피소드에 걸쳐 학습을 진행했으며, 학습량(1천~100만 회)에 따른 성능 변화를 추적했습니다. 학습된 모델을 5천 회의 테스트 게임에 투입하여 '게임 최고 점수'와 '보드 내 최고 숫자' 데이터를 수집하고, 이를 시각화하여 성능을 다각도로 분석했습니다.
