@@ -6,13 +6,6 @@
 
 **Github:** [github.com/dapin1490](https://github.com/dapin1490)
 
-**Website:** [https://dapin1490.github.io/satinbower/](https://dapin1490.github.io/satinbower/)
-
-## 소개 (Introduction)
-
-> 모빌리티 서비스와 로보틱스 분야의 깊은 전문성을 갖춘 신입 개발자 김영은입니다. 석사 과정 중 SDV, V2X, 로봇 친화 빌딩 등 미래 모빌리티 핵심 기술 연구를 수행했으며, Python, C++, ROS를 활용한 시스템 설계와 데이터 기반 문제 해결에 강점이 있습니다.
-> 
-
 ## 기술 (Skills)
 
 - **Languages:** **Python**, C++
