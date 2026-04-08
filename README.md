@@ -37,7 +37,7 @@
 ## 기술 및 능력
 
 - 프로그래밍: Python, C++, Java, SQL
-- 프레임워크/툴: ROS, Linux(Ubuntu), Pytorch, Tensorflow/Keras, Anaconda, Git/Github, VScode, Figma
+- 프레임워크/툴: ROS, Linux(Ubuntu), Pytorch, Tensorflow/Keras, Anaconda, Git/GitHub, VScode, Figma
 - 관심 분야: 데이터 분석, 센서 퓨전, V2X, SDV, 딥러닝
 - 기타 역량: 기술 문서 작성 및 프로젝트 문서화
 
@@ -58,3 +58,11 @@
 
 - TOEIC Total 925 (LC 480, RC 445) — 2025.09.28(일) 수험번호 156491
 - OPIc (영어) IM1 — 2025.09.24(수) 수험번호 2A6267024545
+
+## GitHub stats
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dapin1490&theme=transparent)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=dapin1490&theme=transparent) ![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=dapin1490&theme=transparent&utcOffset=9)
+
+![](http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=dapin1490&theme=transparent&exclude=JavaScript,csharp,HTML,jupyter%20Notebook,TypeScript) ![](http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=dapin1490&theme=transparent&exclude=JavaScript,csharp,HTML,jupyter%20Notebook,TypeScript)
