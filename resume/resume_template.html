@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>[이름]_이력서_및_포트폴리오</title>
+    <style>
+        @page { size: A4; margin: 10mm; }
+        body { font-family: 'Pretendard', 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; line-height: 1.6; color: #333; margin: 0; padding: 0; }
+        .page { width: 210mm; min-height: 297mm; padding: 5mm; box-sizing: border-box; background: white; page-break-after: always; position: relative; }
+
+        /* Header & Typography */
+        header { border-bottom: 2px solid #004c97; padding-bottom: 10px; margin-bottom: 20px; }
+        h2 { color: #004c97; font-size: 20pt; margin: 0; }
+        h3 { color: #555; font-size: 14pt; margin-top: 15px; border-bottom: 1px solid #ddd; }
+        h4 { color: #444; font-size: 11pt; margin-bottom: 3px; }
+
+        /* Summary Table */
+        .summary-box { background: #f8f9fa; border: 1px solid #dee2e6; padding: 15px; margin-bottom: 5px; border-radius: 5px; }
+        .tech-tag { display: inline-block; background: #e7f1ff; color: #004c97; padding: 2px 8px; border-radius: 3px; font-size: 0.9em; font-weight: bold; margin-right: 5px; margin-bottom: 4px; }
+
+        /* Layout Elements */
+        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+        .footer { position: absolute; bottom: 10px; right: 10px; font-size: 10pt; color: #999; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 8px; }
+        b { color: #004c97; }
+
+        /* Highlight Box */
+        .highlight { border-left: 4px solid #004c97; background: #e9f4ff; padding: 10px 15px; margin: 15px 0; }
+
+        /* Metric Box */
+        .metric { display: inline-block; background: #fff3cd; border: 1px solid #ffeaa7; color: #856404; padding: 1px 6px; border-radius: 3px; font-weight: bold; font-size: 0.92em; }
+
+        /* Role Tag */
+        .role { display: inline-block; background: #e8f5e9; color: #1b5e20; border: 1px solid #c8e6c9; padding: 1px 8px; border-radius: 3px; font-size: 0.88em; font-weight: bold; margin-right: 4px; }
+
+        code {
+            font-family: 'D2Coding', 'Consolas', monospace;
+            background-color: #f2f2f2;
+        }
+
+        .meta-line { color: #666; font-size: 10.5pt; margin: 4px 0 12px 0; }
+        
+        /* Portfolio Image */
+        .portfolio-img { display: block; max-width: 90%; margin: 15px auto; border-radius: 8px; border: 1px solid #ddd; }
+    </style>
+</head>
+<body>
+
+<section class="page">
+    <header>
+        <h2>[이름] 이력서 및 포트폴리오</h2>
+    </header>
+    <div class="highlight">
+        [지원 분야 또는 본인의 핵심 역량을 한 줄로 요약하여 작성하세요. 예: 데이터 기반의 의사결정과 성능 최적화에 강점을 가진 엔지니어]
+    </div>
+
+    <h3>기본 인적 사항</h3>
+    <ul>
+        <li><b>이름/이메일:</b> [이름] / [이메일 주소]</li>
+        <li><b>GitHub/블로그:</b> [GitHub 링크] / [블로그 링크]</li>
+        <li><b>학력:</b> [학교명] [전공] [학위] ([졸업년월])</li>
+    </ul>
+
+    <h3>주요 역량 및 기술 스택 (Skills)</h3>
+    <div class="grid">
+        <div>
+            <h4>Languages & Frameworks</h4>
+            <span class="tech-tag">[기술 1]</span>
+            <span class="tech-tag">[기술 2]</span>
+            <span class="tech-tag">[기술 3]</span>
+            <span class="tech-tag">[기술 4]</span>
+        </div>
+        <div>
+            <h4>Tools & Environments</h4>
+            <span class="tech-tag">[도구 1]</span>
+            <span class="tech-tag">[도구 2]</span>
+            <span class="tech-tag">[도구 3]</span>
+        </div>
+    </div>
+
+    <h3>주요 성과 요약</h3>
+    <ul>
+        <li><b>[성과 타이틀 1]:</b> [핵심 성과 내용 요약]</li>
+        <li><b>[성과 타이틀 2]:</b> [핵심 성과 내용 요약]</li>
+        <li><b>[성과 타이틀 3]:</b> [핵심 성과 내용 요약]</li>
+    </ul>
+
+    <h3>경력 (Experience)</h3>
+    <ul>
+        <li><b>[회사 또는 소속명]</b> ([직무/역할], [YYYY.MM ~ YYYY.MM])
+            <ul>
+                <li>[주요 업무 내용 1]</li>
+                <li>[주요 성과 1: <span class="metric">정량적 지표</span> 달성 등]</li>
+            </ul>
+        </li>
+    </ul>
+
+    <div class="footer">Page 1</div>
+</section>
+
+<section class="page">
+    <header>
+        <h2>핵심 프로젝트 (Projects)</h2>
+    </header>
+    <p class="meta-line">
+        <b>요약:</b> [수행하신 전체 프로젝트에 대한 간략한 설명이나 방향성을 기재하세요.]
+    </p>
+
+    <h3>1. [프로젝트명 1]</h3>
+    <p class="meta-line">
+        <span class="role">[본인 역할]</span> [기간: YYYY.MM ~ YYYY.MM] | [팀 규모]<br>
+        <b>기술 스택:</b> [사용 기술 1], [사용 기술 2]
+    </p>
+
+    <h4>문제 정의 및 배경</h4>
+    <p>[어떤 배경에서 이 프로젝트를 시작했는지, 어떤 문제를 해결하고자 했는지 작성합니다.]</p>
+
+    <!-- 필요시 이미지 사용 (주석 해제 후 src 속성 변경) -->
+    <!-- <img src="이미지경로.png" alt="시스템 아키텍처" class="portfolio-img"> -->
+
+    <h4>해결 과정 및 구현 내용</h4>
+    <ul>
+        <li><b>[주요 개발/적용 사항 1]:</b> [어떤 방식으로 기술적 문제를 해결했는지 작성]</li>
+        <li><b>[주요 개발/적용 사항 2]:</b> [어떤 방식으로 기술적 문제를 해결했는지 작성]</li>
+    </ul>
+
+    <h4>정량 성과 및 배운 점</h4>
+    <ul>
+        <li><b>성능 개선/결과:</b> [예: 처리 속도 <span class="metric">XX% 향상</span>, 오류율 <span class="metric">YY% 감소</span> 달성]</li>
+        <li><b>배운 점:</b> [해당 프로젝트를 통해 얻은 기술적/협업적 인사이트]</li>
+    </ul>
+
+    <br>
+
+    <h3>2. [프로젝트명 2]</h3>
+    <p class="meta-line">
+        <span class="role">[본인 역할]</span> [기간: YYYY.MM ~ YYYY.MM] | [팀 규모]<br>
+        <b>기술 스택:</b> [사용 기술 1], [사용 기술 2]
+    </p>
+
+    <h4>문제 정의 및 배경</h4>
+    <p>[프로젝트 배경 및 해결하고자 한 문제 작성]</p>
+
+    <h4>해결 과정 및 구현 내용</h4>
+    <ul>
+        <li><b>[주요 개발/적용 사항 1]:</b> [해결 과정 내용 작성]</li>
+    </ul>
+
+    <h4>정량 성과 및 배운 점</h4>
+    <ul>
+        <li><b>결과:</b> [<span class="metric">관련 수치</span> 작성]</li>
+    </ul>
+
+    <div class="footer">Page 2</div>
+</section>
+
+</body>
+</html>
