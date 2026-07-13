@@ -119,6 +119,13 @@
     <!-- 필요시 이미지 사용 (주석 해제 후 src 속성 변경) -->
     <!-- <img src="이미지경로.png" alt="시스템 아키텍처" class="portfolio-img"> -->
 
+    <!-- 필요시 Mermaid 다이어그램 사용 (주석 해제 후 사용) -->
+    <div class="mermaid" style="text-align: center; margin: 15px 0;">
+        graph TD;
+            A[This is a sample] --> B(Server);
+            B --> C{Database};
+    </div>
+
     <h4>해결 과정 및 구현 내용</h4>
     <ul>
         <li><b>[주요 개발/적용 사항 1]:</b> [어떤 방식으로 기술적 문제를 해결했는지 작성]</li>
@@ -155,5 +162,9 @@
     <div class="footer">Page 2</div>
 </section>
 
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true, theme: 'default' });
+</script>
 </body>
 </html>
